@@ -6,7 +6,7 @@ const CustomFunctionsMetadataPlugin = require("custom-functions-metadata-plugin"
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const urlDev = "https://localhost:3000/";
-const urlProd = "https://www.contoso.com/"; // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT LOCATION
+const urlProd = "https://onepai-git.github.io/xl-data-connector-cf-test/"; // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT LOCATION
 
 /* global require, module, process */
 
@@ -27,6 +27,7 @@ module.exports = async (env, options) => {
     },
     output: {
       clean: true,
+      publicPath: "/xl-data-connector-cf-test/",
     },
     resolve: {
       extensions: [".html", ".js"],
