@@ -9,7 +9,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Excel Custom Functions Shared Runtime" />
   <Description DefaultValue="Write your own Excel functions in JavaScript." />
-  <IconUrl DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
+  <IconUrl DefaultValue="https://onepai-git.github.io/xl-data-connector-cf-test/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
